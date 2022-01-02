@@ -6,4 +6,9 @@ Might implement a captcha solver in the future
 
 ----------------------------------
 Usage:
-from NoBot import NoBot
+from NoBot import WebService, NoBot
+
+web = WebService.web()
+keys = NoBot()
+
+keys.type("Hello, world!")
